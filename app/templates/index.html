@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+  {% if title %}
+  <meta charset="UTF-8">
+  <title>{{title}} - Flask Sec</title>
+  {% else %}
+  <title>Fail title - Flask Sec</title>
+  {% endif %}
+</head>
+<body>
+  <h1>Hello, {{user.username}}</h1>
+
+</body>
+</html>
